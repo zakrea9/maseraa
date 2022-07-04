@@ -1,0 +1,79 @@
+ html body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    
+}
+.cont{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;  
+}
+header{
+    background-color: #353637;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:rgb(122, 104, 117) 5px solid;
+}
+#nav {
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+}
+
+
+
+#nav li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 200px;
+    /* this is the width of the menu items */
+    line-height: 35px;
+    /* this is the hieght of the menu items */
+    color: #ffffff;
+    /* list item font color */
+}
+
+
+/* smaller font size for sub menu items */
+
+#nav li:hover {
+    background: #62756b;
+}
+
+/* highlights current hovered list item and the parent list items when hovering over sub menues */
+
+#nav ul {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    display: none;
+    /* hides sublists */
+}
+
+#nav li:hover ul ul {
+    display: none;
+}
+
+
+#nav li:hover ul {
+    display: block;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: #525252;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
